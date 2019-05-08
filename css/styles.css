@@ -10,6 +10,7 @@ body {
 	background-image: url(../images/shutterstock_140778943.jpg);
 	background-size: cover;
 }
+/*custom button*/
 button{
 	font-family: "Open Sans", Sans-Serif;
 	color: #fff;
@@ -24,7 +25,9 @@ button{
 button:hover{
 	background-color: rgba(0,0,0,1.00);
 }
-
+button:focus{
+	outline: 0;
+}
 /*page layout*/
 #wrapper{
 	position: absolute;
